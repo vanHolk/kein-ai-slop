@@ -1,43 +1,53 @@
-# No AI slop eval
+# Kein AI Slop: Prüfliste
 
-Use this after the rewrite. Answer each check with pass or fail. If any check fails, fix the draft before returning it.
+Nutze diese Liste nach der Überarbeitung. Beantworte jeden Punkt mit bestanden oder durchgefallen. Wenn ein Punkt durchfällt, korrigiere den Text, bevor du ihn zurückgibst.
 
-For detect requests, make sure the response names each pattern found with a quoted line and a short fix, without rewriting the draft.
+Bei Prüfanfragen stellst du sicher, dass die Antwort jedes gefundene Muster mit zitierter Stelle und kurzer Korrektur nennt, ohne den Text umzuschreiben.
 
-## Editing principles
+## Grundsätze
 
-1. Does the edit preserve the user's point without adding claims, examples, stats, quotes, or opinions?
-2. Does it preserve the writer's distinctive vocabulary, cadence, bluntness, humor, uncertainty, digressions, and level of polish?
-3. Does it leave strong human sentences alone instead of rewriting them for consistency or making every paragraph equally tidy?
-4. Is the amount of cutting proportional to the actual slop, with no aggressive compression that strips out character?
-5. Does the draft lead with what the reader needs while keeping personal setup that adds context, tension, or character?
-6. Are points front-loaded where that improves clarity without forcing every unit into the same structure?
-7. Do sentences earn their place, with concrete facts, protected details, and direct verbs where the draft supports them?
-8. Does every generic sentence pass the portability test, or was it cut or made specific to this subject?
-9. Does the draft use active voice with human subjects where possible?
-10. Does the edit keep useful edge and preserve structure unless the structure was hurting the piece?
-11. Are genuinely tangled sentences fixed while clear spoken cadence, fragments, and changes in pace remain intact?
+1. Bewahrt die Überarbeitung die Aussage des Nutzers, ohne Behauptungen, Beispiele, Zahlen, Zitate oder Meinungen hinzuzufügen?
+2. Bewahrt sie Wortschatz, Satzmelodie, Direktheit, Humor, Unsicherheit, Abschweifungen und den Grad an Schliff?
+3. Bleiben starke menschliche Sätze unangetastet, statt der Einheitlichkeit wegen umgeschrieben zu werden?
+4. Steht die Menge der Kürzungen im Verhältnis zum tatsächlichen Slop, ohne dass aggressive Verdichtung den Charakter wegschneidet?
+5. Kommt der Text zur Sache und behält dabei persönliche Einleitungen, die Kontext, Spannung oder Charakter schaffen?
+6. Steht die Kernaussage vorn, wo das der Klarheit dient, ohne jeden Abschnitt in dasselbe Schema zu zwingen?
+7. Verdient sich jeder Satz seinen Platz, mit konkreten Fakten, geschützten Details und direkten Verben, wo der Text sie hergibt?
+8. Besteht jeder allgemeine Satz den Austauschbarkeitstest oder wurde er gestrichen bzw. konkret gemacht?
+9. Sind Nominalstil und Funktionsverbgefüge in Verben mit handelndem Subjekt aufgelöst, soweit Textsorte und Stimme es erlauben?
+10. Steht der Text im Aktiv mit menschlichen Subjekten, wo möglich, statt im Passiv oder mit „man“?
+11. Behält die Überarbeitung nützliche Kanten und die Struktur, solange die Struktur dem Text nicht schadet?
+12. Sind echte Schachtelsätze entwirrt, während klare gesprochene Satzmelodie, Fragmente und Tempowechsel bleiben?
 
-## Words to cut
+## Konventionen des Autors
 
-1. Are banned words, filler phrases, often-empty adverbs, and inflated claims removed unless quoted as examples?
+1. Ist die Anrede (Du oder Sie, „du“ oder „Du“) durchgehend einheitlich und entspricht der überwiegenden Form im Original?
+2. Ist die Gender-Schreibweise unverändert übernommen und nur dort vereinheitlicht, wo das Original mischt?
+3. Folgt die Rechtschreibung der Variante des Originals (Deutschland, Österreich, Schweiz)?
+4. Bleiben branchenübliche Fachbegriffe stehen, während floskelhafte Anglizismen ersetzt sind?
 
-## Patterns to cut
+## Wörter, die raus müssen
 
-1. Are binary contrasts, negative listings, rhetorical setups, and throat-clearing openers removed?
-2. Are faux-insight setups, colon reveals, superficial analysis, fake-strong verbs, synonym cycling, dramatic fragments, and robotic rhythm fixed?
-3. Are importance puffery and weasel attribution replaced with plain facts and named sources, or flagged for the user when no source exists?
-4. Is interpretive metadiscourse removed, including authorial metacommentary, reader guidance, emphasis markers, and redundant glossing?
-5. Are fake-profound kicker lines deleted instead of rewritten into better metaphors?
-6. Are summary-recap endings cut so the piece ends on a concrete point, takeaway, or next action?
-7. Is formatting slop removed: Emoji headings, decorative bold, bullets that should be prose, headers over tiny sections?
-8. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
-9. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
+1. Sind gesperrte Wörter, leere Wendungen, leere Füllwörter und aufgeblähte Behauptungen entfernt, außer sie werden als Beispiel zitiert?
+2. Sind Modalpartikeln (ja, doch, mal, halt, eben) erhalten, wo der Autor sie benutzt?
 
-## Final read
+## Muster, die raus müssen
 
-1. Does the draft avoid robotic symmetry, repeated sentence shapes, and stacked punchy fragments?
-2. Would the writer recognize the edited draft as their own voice?
-3. Would the edited draft sound natural if read to a sharp colleague?
-4. Does the final output include the full edited draft and a short **What changed** section?
-5. For detect requests, does the response name each pattern with a quoted line and a short fix, without rewriting, scoring, or claiming AI authorship?
+1. Ist Übersetzungsdeutsch ersetzt: Lehnübersetzungen wie „am Ende des Tages“ oder „einen Unterschied machen“, falsche Freunde, „in 2026“, englische Großschreibung in Überschriften?
+2. Sind binäre Kontraste, Negativ-Aufzählungen, rhetorische Aufhänger und Vorgeplänkel entfernt, während sachliches „nicht X, sondern Y“ bleibt?
+3. Sind falsche Geheimtipps, Doppelpunkt-Enthüllungen, oberflächliche Deutung, scheinstarke Verben, Synonymkarussell, dramatische Fragmente und Roboterrhythmus behoben?
+4. Sind Bedeutungsgetue und Wieselformulierungen durch schlichte Fakten und genannte Quellen ersetzt oder dem Nutzer gemeldet, wenn keine Quelle existiert?
+5. Ist Leserlenkung entfernt, also Metakommentare, Hinweise an die Leser, Betonungsmarker und überflüssige Umschreibungen?
+6. Sind pseudotiefe Schlusssätze gelöscht statt in bessere Metaphern umgeschrieben?
+7. Sind zusammenfassende Schlüsse gestrichen, sodass der Text mit einem konkreten Punkt, einer Erkenntnis oder einem nächsten Schritt endet, außer das Format verlangt ein Fazit?
+8. Ist Formatierungs-Slop entfernt: Emojis in Überschriften, dekorativer Fettdruck, Aufzählungen statt Prosa, Überschriften über winzigen Abschnitten?
+9. Folgt die Groß- und Kleinschreibung nach Doppelpunkten der deutschen Regel: groß bei vollständigem Satz, sonst klein?
+10. Stimmt die Typografie: deutsche, französische oder Schweizer Anführungszeichen statt englischer, kein englischer Geviertstrich, Halbgeviertstriche sparsam (in kurzen Texten keine, in langen höchstens ein bis zwei), Dezimalkomma und deutsches Zahlenformat?
+
+## Letzte Lektüre
+
+1. Vermeidet der Text roboterhafte Symmetrie, wiederholte Satzmuster und gestapelte Kurzsätze?
+2. Würde der Autor den überarbeiteten Text als seine eigene Stimme erkennen?
+3. Klingt der Text natürlich, wenn man ihn einer klugen Kollegin vorliest, und nicht nach Übersetzung?
+4. Enthält die Ausgabe den vollständigen überarbeiteten Text und einen kurzen Abschnitt **Was sich geändert hat**?
+5. Nennt die Antwort bei Prüfanfragen jedes Muster mit zitierter Stelle und kurzer Korrektur, ohne umzuschreiben, zu bewerten oder eine KI-Urheberschaft zu behaupten?
