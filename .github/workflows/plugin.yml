@@ -44,4 +44,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: gh release create "${GITHUB_REF_NAME}" dist/no-ai-slop-plugin-*.zip --generate-notes --verify-tag
+        run: gh release create "${GITHUB_REF_NAME}" dist/kein-ai-slop-plugin-*.zip --generate-notes --verify-tag
