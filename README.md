@@ -1,91 +1,88 @@
-# No AI Slop
+# Kein AI Slop
 
-Remove 20+ patterns of AI slop from your writing without flattening your personal voice.
-
-https://github.com/user-attachments/assets/f3055450-78eb-4672-880a-88a4fa54bde9
+Entfernt über 25 typische KI-Muster aus deutschen Texten, ohne deine persönliche Stimme zu glätten.
 
 ## Problem
 
-AI makes it easy to generate clean writing that all sounds the same. Even the best models keep producing lines like:
+Mit KI entstehen schnell saubere Texte, die alle gleich klingen. Auf Deutsch kommt etwas dazu: Viele KI-Texte lesen sich wie übersetzt. Typisch sind Sätze wie diese:
 
-- “It’s not X. It’s Y.”
-- “What nobody tells you is…”
-- “The future isn’t coming. It’s already here.”
+- „Es geht nicht um X. Es geht um Y.“
+- „Was dir niemand sagt …“
+- „Am Ende des Tages macht das den Unterschied.“
+- „Die Durchführung der Optimierung erfolgt im Rahmen des Projekts.“
 
-When you use AI to edit, it can also smooth away the vocabulary, cadence, humor, and imperfections that make the writing sound like you.
+Wer KI zum Überarbeiten nutzt, verliert außerdem oft genau den Wortschatz, die Satzmelodie, den Humor und die Ecken, die einen Text nach dir klingen lassen.
 
-## How to install No AI Slop
+## Installation
 
-The easiest way to install the skill is to paste this into ChatGPT, Claude Code, Codex, or your favorite coding agent:
+Am einfachsten fügst du das in ChatGPT, Claude Code, Codex oder deinen Coding-Agenten ein:
 
 ```text
-Install the /no-ai-slop skill globally from https://github.com/petergyang/no-ai-slop
+Installiere den Skill /kein-ai-slop global von https://github.com/vanHolk/kein-ai-slop
 ```
 
-You can also install it with `npx`:
+Oder mit `npx`:
 
 ```sh
-npx skills add petergyang/no-ai-slop --skill no-ai-slop --global --yes
+npx skills add vanHolk/kein-ai-slop --skill kein-ai-slop --global --yes
 ```
 
-## How to use No AI Slop
+## Nutzung
 
-### Edit your writing
+### Text überarbeiten
 
 ```text
-/no-ai-slop (your writing)
+/kein-ai-slop (dein Text)
 ```
 
-The skill removes the AI slop patterns, preserves your personal voice, and lists what it changed.
+Der Skill entfernt die KI-Muster, bewahrt deine Stimme und listet auf, was er geändert hat.
 
-### Detect slop
+### Text prüfen
 
 ```text
-/no-ai-slop is this slop? (your writing)
+/kein-ai-slop Ist das Slop? (dein Text)
 ```
 
-The skill quotes every slop pattern it found without guessing whether AI wrote the text.
+Der Skill zitiert jedes gefundene Muster, ohne zu raten, ob eine KI den Text geschrieben hat.
 
-### Generate slop for fun
+### Slop zum Spaß erzeugen
 
 ```text
-Draft an AI slop post about (topic)
+Schreib einen LinkedIn-Post über (Thema) voller KI-Slop
 ```
 
-Use it to generate the most cringe AI slop possible as satire.
+Für Satire: der peinlichste KI-Text, der möglich ist.
 
-## The slop that this skill catches
+## Was der Skill findet
 
-No AI Slop checks for 20+ patterns, including:
+Kein AI Slop prüft über 25 Muster, darunter:
 
-1. **Binary contrasts.** “It’s not X. It’s Y.”
-2. **Throat-clearing openers.** “Here’s the thing,” “Let me be clear”
-3. **Faux-insight setups.** “What nobody tells you,” “The part everyone misses”
-4. **Colon reveals.** “The best part: it learns.”
-5. **Dramatic fragments.** “That’s it. That’s the whole thing.”
-6. **Superficial analysis.** “highlighting the team’s commitment to innovation”
-7. **Importance puffery.** “marks a pivotal moment,” “a testament to”
-8. **Weasel attribution.** “experts agree,” “studies show”
-9. **Synonym cycling.** “The agent handles your email. The assistant drafts replies.”
-10. **Fake-profound endings.** “The future isn’t coming. It’s already here.”
+1. **Übersetzungsdeutsch.** „Am Ende des Tages“, „einen Unterschied machen“, „in 2026“
+2. **Nominalstil.** „Die Umsetzung der Maßnahme erfolgt zeitnah.“
+3. **Binäre Kontraste.** „Das ist kein Tool. Das ist eine Haltung.“
+4. **Vorgeplänkel.** „Mal ehrlich:“, „Klartext:“
+5. **Falsche Geheimtipps.** „Was dir niemand sagt“, „Was die meisten übersehen“
+6. **Doppelpunkt-Enthüllungen.** „Das Beste daran: Es lernt.“
+7. **Dramatische Fragmente.** „Das war's. Mehr nicht.“
+8. **Bedeutungsgetue.** „ein Meilenstein“, „ein Zeugnis für“, „setzt neue Maßstäbe“
+9. **Wieselformulierungen.** „Experten sind sich einig“, „Studien zeigen“
+10. **Synonymkarussell.** „Der Agent prüft deine Mails. Der Assistent schreibt Antworten.“
+11. **Pseudotiefe Schlusssätze.** „Die Zukunft kommt nicht. Sie ist längst da.“
+12. **Englische Typografie.** "Gerade Anführungszeichen", Geviertstriche, Title Case in Überschriften
 
-It also checks the fundamentals: Lead with the point when that helps, use active voice, untangle hard-to-follow sentences, and prefer concrete details over abstractions.
+Dazu prüft er die Grundlagen: Verben statt Substantive, Aktiv statt Passiv, entwirrte Schachtelsätze und konkrete Details statt Abstraktionen. Anrede (Du oder Sie), Gender-Schreibweise und Sprachvariante (Deutschland, Österreich, Schweiz) übernimmt er vom Original und macht sie nur einheitlich.
 
-## What’s inside
+## Inhalt
 
-- [`SKILL.md`](skills/no-ai-slop/SKILL.md) contains the editing rules and workflow.
-- [`eval.md`](skills/no-ai-slop/eval.md) contains the checks the skill runs on its work.
-- [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) contains the ChatGPT and Codex plugin metadata.
-- [`build_plugin.py`](scripts/build_plugin.py) builds and validates the plugin package.
+- [`SKILL.md`](skills/kein-ai-slop/SKILL.md) enthält die Regeln und den Ablauf.
+- [`eval.md`](skills/kein-ai-slop/eval.md) enthält die Prüfliste, mit der der Skill seine Arbeit kontrolliert.
+- [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) enthält die Plugin-Metadaten für ChatGPT und Codex.
+- [`build_plugin.py`](scripts/build_plugin.py) baut und validiert das Plugin-Paket.
 
-No AI Slop is also available as a plugin in ChatGPT.
+## Herkunft
 
-## Want more great AI skills?
+Kein AI Slop ist eine deutsche Adaption von [No AI Slop](https://github.com/petergyang/no-ai-slop) von Peter Yang. Regeln, Beispiele und Prüfliste wurden für deutsche Texte neu geschrieben und um deutschsprachige Muster ergänzt.
 
-Check out [Behind the Craft](https://behindthecraft.com), my personal AI system with over a dozen other quality skills and courses.
-
-Subscribe to my [YouTube channel](https://www.youtube.com/@PeterYangYT?sub_confirmation=1) and [newsletter](https://creatoreconomy.so) for practical AI tutorials and interviews.
-
-## License
+## Lizenz
 
 MIT

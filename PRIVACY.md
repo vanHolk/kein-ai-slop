@@ -1,9 +1,9 @@
-# Privacy
+# Datenschutz
 
-No AI Slop is a skills-only plugin. It does not run an external server, require an account, or collect, store, or sell personal data.
+Kein AI Slop ist ein reines Skill-Plugin. Es betreibt keinen externen Server, verlangt kein Konto und erhebt, speichert oder verkauft keine personenbezogenen Daten.
 
-The text you provide is processed by the ChatGPT or Codex product where you use the plugin. That processing is covered by the privacy terms of that product.
+Den Text, den du eingibst, verarbeitet das Produkt, in dem du das Plugin nutzt (zum Beispiel ChatGPT, Codex oder Claude). Für diese Verarbeitung gelten die Datenschutzbestimmungen des jeweiligen Produkts.
 
-Visiting the project website or GitHub repository may create normal web server and analytics logs under those services' policies.
+Beim Besuch des GitHub-Repositorys können die üblichen Server- und Analyse-Logs nach den Richtlinien von GitHub entstehen.
 
-Questions: peter@creatoreconomy.so
+Fragen: https://github.com/vanHolk/kein-ai-slop/issues

@@ -1,30 +1,29 @@
-# No AI Slop plugin submission
+# Kein AI Slop: Plugin-Einreichung
 
-## Positioning
+## Positionierung
 
-No AI Slop removes 20+ patterns that make AI-assisted writing sound generic without flattening the writer's voice.
+Kein AI Slop entfernt über 25 Muster, die KI-gestützte deutsche Texte generisch oder übersetzt klingen lassen, ohne die Stimme des Autors zu glätten.
 
-Peter uses it during the middle 50% of his writing process to improve spelling, grammar, and clarity. He writes the first draft himself and does the final line-by-line pass himself.
+## Einstiegs-Prompts
 
-## Starter prompts
+1. @Kein AI Slop (Text)
+2. @Kein AI Slop Ist das Slop? (Text)
 
-1. @No AI Slop (text)
-2. @No AI Slop is this slop? (text)
+## Positive Testfälle
 
-## Positive test cases
+1. Eine rohe E-Mail mit Vorgeplänkel, binärem Kontrast und pseudotiefem Schluss überarbeiten. Den direkten Ton bewahren und den vollständigen Text plus Was sich geändert hat zurückgeben.
+2. Einen LinkedIn-Post prüfen, ohne ihn umzuschreiben. Jedes Muster benennen, die Stelle zitieren und eine kurze Korrektur vorschlagen.
+3. Ein Behördenschreiben im Nominalstil überarbeiten. Funktionsverbgefüge auflösen, die Sie-Anrede und den sachlichen Ton behalten.
+4. Ein Produkt-Update voller Übersetzungsdeutsch („am Ende des Tages“, „in 2026“, Title Case) überarbeiten und alle belegten Zahlen erhalten.
+5. Einen Text, der zwischen Du und Sie sowie zwischen Gender-Formen wechselt, auf die überwiegende Form vereinheitlichen.
+6. Einen Schweizer Text überarbeiten, ohne ss in ß zu ändern.
 
-1. Edit a rough email containing throat-clearing, a binary contrast, and a fake-profound ending. Preserve the writer's blunt tone and return the full edit plus What changed.
-2. Audit a LinkedIn post without rewriting it. Name each pattern, quote the affected line, and suggest a short fix.
-3. Edit a personal essay with humor and digressions. Remove only the real slop and keep the personality.
-4. Edit a product update containing concrete numbers. Preserve every supported fact and make the verbs more direct.
-5. Edit a long spoken draft. Untangle genuinely confusing sentences while keeping its natural cadence.
+## Negative Testfälle
 
-## Negative test cases
+1. Der Nutzer stellt eine Sachfrage, ohne einen Text zu teilen. Den Überarbeitungsablauf nicht auslösen.
+2. Der Nutzer fragt, ob eine KI einen Text geschrieben hat. Keine Urheberschaft raten, stattdessen eine Musterprüfung anbieten.
+3. Der Nutzer bittet darum, Belege oder Quellen zu erfinden. Nichts erfinden, nach Belegen fragen oder die Behauptung weglassen.
 
-1. The user asks a factual question without sharing writing. Do not trigger the editing workflow.
-2. The user asks whether AI wrote a passage. Do not guess authorship; offer a pattern audit instead.
-3. The user asks the plugin to invent supporting facts or sources. Do not invent them; ask for evidence or keep the claim out.
+## Release Notes
 
-## Release notes
-
-Version 1.0.6 uses the new supplied No AI Slop logo, simplifies both starter prompts, and expands the directory description with concrete examples of the patterns it removes. The plugin includes edit and detect modes, voice-preserving instructions, self-checking evals, and no external server or authentication.
+Version 1.0.0 ist die erste deutsche Adaption von No AI Slop. Sie ergänzt Übersetzungsdeutsch, Nominalstil, deutsche Typografie sowie Regeln für Anrede, Gendern und Sprachvarianten.

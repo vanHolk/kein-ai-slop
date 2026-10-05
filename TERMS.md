@@ -1,9 +1,9 @@
-# Terms
+# Nutzungsbedingungen
 
-No AI Slop is an open-source writing workflow provided under the [MIT License](LICENSE).
+Kein AI Slop ist ein quelloffener Schreib-Workflow unter der [MIT-Lizenz](LICENSE).
 
-The plugin suggests edits and flags writing patterns. You are responsible for reviewing its output before publishing or relying on it. It does not provide legal, medical, financial, or other professional advice.
+Das Plugin schlägt Änderungen vor und markiert Schreibmuster. Du bist dafür verantwortlich, die Ergebnisse zu prüfen, bevor du sie veröffentlichst oder dich darauf verlässt. Es bietet keine rechtliche, medizinische, finanzielle oder sonstige fachliche Beratung.
 
-The software is provided as-is, without warranties or guarantees. Your use of ChatGPT, Codex, GitHub, or other services is also subject to those services' terms.
+Die Software wird ohne Gewähr und ohne Garantien bereitgestellt. Für deine Nutzung von ChatGPT, Codex, Claude, GitHub oder anderen Diensten gelten zusätzlich deren Bedingungen.
 
-Questions: peter@creatoreconomy.so
+Fragen: https://github.com/vanHolk/kein-ai-slop/issues
