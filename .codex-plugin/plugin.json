@@ -1,41 +1,44 @@
 {
-  "name": "no-ai-slop",
-  "version": "1.0.6",
-  "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+  "name": "kein-ai-slop",
+  "version": "1.0.0",
+  "description": "Entfernt über 25 typische KI-Muster aus deutschen Texten.",
   "author": {
-    "name": "Peter Yang",
-    "url": "https://creatoreconomy.so"
+    "name": "Michael van Holker",
+    "url": "https://github.com/vanHolk"
   },
-  "homepage": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
-  "repository": "https://github.com/petergyang/no-ai-slop",
+  "homepage": "https://github.com/vanHolk/kein-ai-slop",
+  "repository": "https://github.com/vanHolk/kein-ai-slop",
   "license": "MIT",
   "keywords": [
     "writing",
     "editing",
     "voice",
-    "AI slop"
+    "AI slop",
+    "German",
+    "Deutsch",
+    "Lektorat"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "No AI Slop",
-    "shortDescription": "Remove 20+ AI slop patterns",
-    "longDescription": "This plugin removes 20+ patterns of AI slop from your writing without flattening your personal voice. Slop patterns that it removes include:\n\nBinary contrasts: “It’s not X. It’s Y.”\n\nThroat-clearing openers: “Here’s the thing,” “Let me be clear”\n\nFaux-insight setups: “What nobody tells you,” “The part everyone misses”\n\nColon reveals: “The best part: it learns.”\n\nFake-profound endings: “The future isn’t coming. It’s already here.”\n\n...and more.\n\nUse it to remove AI slop from your writing or detect named slop patterns in a piece of writing. If you like this plugin, please star it on GitHub: https://github.com/petergyang/no-ai-slop",
-    "developerName": "Peter Yang",
+    "displayName": "Kein AI Slop",
+    "shortDescription": "Über 25 KI-Muster aus deutschen Texten entfernen",
+    "longDescription": "Dieses Plugin entfernt über 25 typische KI-Muster aus deutschen Texten, ohne deine persönliche Stimme zu glätten. Dazu gehören:\n\nÜbersetzungsdeutsch: „Am Ende des Tages“, „einen Unterschied machen“\n\nNominalstil: „Die Umsetzung der Maßnahme erfolgt zeitnah.“\n\nBinäre Kontraste: „Es geht nicht um X. Es geht um Y.“\n\nFalsche Geheimtipps: „Was dir niemand sagt“\n\nDoppelpunkt-Enthüllungen: „Das Beste daran: Es lernt.“\n\nPseudotiefe Schlusssätze: „Die Zukunft kommt nicht. Sie ist längst da.“\n\n…und mehr.\n\nNutze es, um deutsche Texte zu überarbeiten oder benannte KI-Muster zu finden. Deutsche Adaption von No AI Slop von Peter Yang. https://github.com/vanHolk/kein-ai-slop",
+    "developerName": "Michael van Holker",
     "category": "Productivity",
     "capabilities": [
-      "Edit",
-      "Detect",
-      "Preserve voice"
+      "Überarbeiten",
+      "Prüfen",
+      "Stimme bewahren"
     ],
-    "websiteURL": "https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns",
-    "privacyPolicyURL": "https://github.com/petergyang/no-ai-slop/blob/main/PRIVACY.md",
-    "termsOfServiceURL": "https://github.com/petergyang/no-ai-slop/blob/main/TERMS.md",
+    "websiteURL": "https://github.com/vanHolk/kein-ai-slop",
+    "privacyPolicyURL": "https://github.com/vanHolk/kein-ai-slop/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/vanHolk/kein-ai-slop/blob/main/TERMS.md",
     "defaultPrompt": [
-      "(text)",
-      "is this slop? (text)"
+      "(Text)",
+      "Ist das Slop? (Text)"
     ],
     "brandColor": "#D30800",
-    "composerIcon": "./assets/no-ai-slop.png",
-    "logo": "./assets/no-ai-slop.png"
+    "composerIcon": "./assets/kein-ai-slop.png",
+    "logo": "./assets/kein-ai-slop.png"
   }
 }
