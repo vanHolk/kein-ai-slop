@@ -1,4 +1,4 @@
 interface:
-  display_name: "/no-ai-slop"
-  short_description: "Remove AI slop while preserving the writer's personal voice."
-  default_prompt: "Use $no-ai-slop to remove AI patterns from this draft while preserving my personal voice."
+  display_name: "/kein-ai-slop"
+  short_description: "KI-Slop aus deutschen Texten entfernen und die eigene Stimme bewahren."
+  default_prompt: "Nutze $kein-ai-slop, um KI-Muster aus diesem deutschen Text zu entfernen und meine Stimme zu bewahren."
